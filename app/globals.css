@@ -3,31 +3,98 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --main-color: #08cc7f
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-  }
+  } */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+@layer components{
+  /* Global colors */
+  .primary_color{
+    @apply text-[#08cc7f]
+  }
+  .secondary_color{
+    @apply text-[#062265] 
+  }
+  .dark_color{
+    @apply  text-gray-500
+  }
+  .primary_background{
+    @apply bg-[#08cc7f]
+  }
+  .secondary_bg{
+    @apply bg-gray-500
+  }
+  .font-fairplay{
+    font-family: var(--font-playfair-display);
+  }
+  .font-poppins{
+    font-family: var(--font-poppins)
+  }
+  .button_square{
+    @apply flex items-center px-6 py-3 mt-6 rounded-md text-white font-bold bg-[#08cc7f] 
+  }
+  .button_rounded{
+    @apply px-5 py-2 rounded-full text-white font-bold bg-[#08cc7f]
+  }
+  .button_outline{
+    @apply px-5 py-2 rounded-full text-[#08cc7f] font-bold border border-[#08cc7f]
+  }
+  
+
+  /* Navbar */
+  .navbar{
+    @apply flex items-center justify-between px-[2rem] py-[2rem] w-[100%] shadow-sm 
+  }
+  .navbar_menu_list {
+    @apply  hidden space-x-8 md:flex 
+  }
+  .navbar_menu_list > li{
+    @apply  md:block text-[15px] font-[500] 
+  }
+  .navbar_menu_list > li:hover {
+    @apply text-[#08cc7f] cursor-pointer
+  }
+
+  /* Mobile */
+  .mobile_menu{
+    @apply block md:hidden fixed z-40  bg-white w-[100%]  px-[2rem] py-[2rem] 
+  }
+  .mobile_menu > ul > li:hover{
+    @apply text-[#08cc7f] cursor-pointer
+  }
+
+  /* GETINVOLED */
+  .getinvolved_card{
+    @apply flex flex-col items-center justify-center md:w-[30%] px-5 py-8 space-y-9 bg-white border border-[#08cc7f]
+  }
+
+}
+.navbar {
+ font-family: var(--font-poppins)
 }
