@@ -4,7 +4,7 @@ import { FaDonate } from "react-icons/fa";
 
 const GetInvolved = () => {
   return (
-    <div className='flex items-center justify-center py-[6rem] bg-[#f8faff]'>
+    <div className='flex items-center justify-center py-[6rem] secondary_bg'>
         <div className='w-[90%] md:w-[80%]'>
             <p className='text-center primary_color text-bold'> GET INVOLVED</p>
             <p className='text-center mt-3 text-[26px] md:text-[40px] font-extrabold font-fairplay '>Lets Make A Difference Today</p>

@@ -44,18 +44,26 @@ body {
   .dark_color{
     @apply  text-gray-500
   }
-  .primary_background{
+  .bg_primary{
     @apply bg-[#08cc7f]
   }
   .secondary_bg{
-    @apply bg-gray-500
+    @apply  bg-[#f8faff]
   }
+  .border_primary{
+    @apply border-[#08cc7f]
+  }
+
+
+  /* GLOBAL FONTS */
   .font-fairplay{
     font-family: var(--font-playfair-display);
   }
   .font-poppins{
     font-family: var(--font-poppins)
   }
+
+  /* GLOBAL BUTTONS */
   .button_square{
     @apply flex items-center px-6 py-3 mt-6 rounded-md text-white font-bold bg-[#08cc7f] 
   }
@@ -66,10 +74,27 @@ body {
     @apply px-5 py-2 rounded-full text-[#08cc7f] font-bold border border-[#08cc7f]
   }
   
+  /* GLOBAL HEADERS */
+  .header_sm{
+    @apply text-[23px] mt-2 font-extrabold font-fairplay
+
+  }
+  .header_md{
+    @apply text-[20px] md:text-[46px] mt-2 font-extrabold font-fairplay
+  }
+  .header_lg{
+    @apply text-[20px] md:text-[56px] mt-2 font-extrabold font-fairplay
+
+  }
+
+  /* GLOBAL TEXTS */
+  .text-sm{
+
+  }
 
   /* Navbar */
   .navbar{
-    @apply flex items-center justify-between px-[2rem] py-[2rem] w-[100%] shadow-sm 
+    @apply flex items-center justify-between px-[2rem] md:px-[8rem] py-[2rem] w-[100%] shadow-sm 
   }
   .navbar_menu_list {
     @apply  hidden space-x-8 md:flex 
@@ -83,7 +108,7 @@ body {
 
   /* Mobile */
   .mobile_menu{
-    @apply block md:hidden fixed z-40  bg-white w-[100%]  px-[2rem] py-[2rem] 
+    @apply block md:hidden fixed z-40  bg-white w-[100%] h-full  px-[2rem] py-[2rem] 
   }
   .mobile_menu > ul > li:hover{
     @apply text-[#08cc7f] cursor-pointer

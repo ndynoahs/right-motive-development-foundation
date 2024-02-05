@@ -11,7 +11,7 @@ const About = () => {
             <div className='relative  md:w-[46%]'>
                 <div className='flex flex-col relative '>
                     <Image src={image} alt="" className='rounded-3xl' />
-                    <div className='flex  justify-evenly absolute w-[400px] md:w-[380px] mx-auto -translate-x-1/2  mt-[8.5rem]  top-1/2 left-1/2  px-4 py-4 border text-white rounded-2xl primary_background'>
+                    <div className='flex  justify-evenly absolute w-[400px] md:w-[380px] mx-auto -translate-x-1/2  mt-[8.5rem]  top-1/2 left-1/2  px-4 py-4 border text-white rounded-2xl bg_primary'>
                         <div className='pr-4 border-r border-white'>
                             <p className='font-fairplay text-[42px]'>10<span>+</span></p>                
                             <p className='font-poppins'>Volunteers</p>
@@ -56,7 +56,7 @@ const About = () => {
                             Excellence
                         </li>
                     </ul>
-                    <div className='flex flex-col items-center justify-center px-10 py-1 mt-9 md:mt-0 text-white border primary_background rounded-2xl'>
+                    <div className='flex flex-col items-center justify-center px-10 py-1 mt-9 md:mt-0 text-white border bg_primary rounded-2xl'>
                         <p className='font-fairplay text-[52px] font-extrabold'>5 </p>
                         <p className='font-fairplay text-[20px] font-bold '>Years</p>
                         <p className='font-poppins text-[15px]'>OF EXPERIENCE</p>
