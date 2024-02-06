@@ -6,15 +6,15 @@ import image  from "../../public/image/bosa-charity-img3.jpg"
 const Campaigns = () => {
   return (
     <div className='flex justify-center items-center '>
-        <div className='w-[95%] lg:w-[80%]'>
+        <div className=' w-[95%] lg:w-[80%]'>
             <p className='primary_color'>RECENT CAMPAIGNS</p>
             <div className='md:flex items-center justify-between '>
                 <p className='min-w-[60%] text-[20px] md:text-[46px] mt-2 font-extrabold font-fairplay'>Donate To Support Our Campaigns </p>
                 <button className='button_rounded mt-[2rem] md:mt-[5.4rem]'>View All Campaign</button>
             </div>
-            <div className='flex flex-col sm:flex-row md:flex-row justify-between space-y-7 md:space-y-0 md:space-x-8 mt-9'>
-                <div className='w-[400px] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
-                    <div className=''> 
+            <div className='flex flex-col items-center justify-center  md:flex-row md:justify-between space-y-7 md:space-y-0 md:space-x-8 mt-9'>
+                <div className='sm:w-[70%] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
+                    <div className='flex items-center justify-center'> 
                     <Image src={image} alt="image" className='rounded-3xl' />
                     </div>
                     <div className='space-y-8 px-8'>
@@ -46,8 +46,8 @@ const Campaigns = () => {
 
 
                 </div>
-                <div className='w-[400px] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
-                    <div className=''> 
+                <div className='sm:w-[70%] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
+                    <div className='flex items-center justify-center'> 
                     <Image src={image} alt="image" className='rounded-3xl' />
                     </div>
                     <div className='space-y-8 px-8'>

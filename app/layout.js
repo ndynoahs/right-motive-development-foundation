@@ -23,6 +23,8 @@ export const metadata = {
   description: "We help those in need",
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${playfair.variable}`}>

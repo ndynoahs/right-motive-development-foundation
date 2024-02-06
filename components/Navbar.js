@@ -30,7 +30,7 @@ const Navbar = () => {
           <li> <Link href="campaigns" alt="" >Campaigns </Link></li>
           <li> <Link href="events" alt="" >Events </Link></li>
           <li> <Link href="contact" alt="" >Contact </Link></li>
-          <li> <Link href="volunteers" alt="" >Volunteers </Link></li>
+          {/* <li> <Link href="volunteers" alt="" >Blogs </Link></li> */}
         </ul>
       </div>
 
@@ -41,12 +41,12 @@ const Navbar = () => {
           </div>
           
           <ul className=' flex flex-col items-center space-y-[2rem] pt-[5rem] text-[22px]  '>
-            <li>Home</li>
-            <li>About</li>
-            <li>Campaigns</li>
-            <li>Events</li>
-            <li>Contact</li>
-            <li>Volunteers</li>
+            <li> <Link href="/" alt="" >Home </Link></li>
+            <li> <Link href="#about" alt="" >About </Link></li>
+            <li> <Link href="#campaigns" alt="" >Campaigns </Link></li>
+            <li> <Link href="#events" alt="" >Events </Link></li>
+            <li> <Link href="contact" alt="" >Contact </Link></li>
+            {/* <li> <Link href="volunteers" alt="" >Blogs </Link></li> */}
           </ul>
       </div>
       }

@@ -76,7 +76,7 @@ body {
   
   /* GLOBAL HEADERS */
   .header_sm{
-    @apply text-[23px] mt-2 font-extrabold font-fairplay
+    @apply text-[20px] mt-2 font-extrabold font-fairplay
 
   }
   .header_md{

@@ -1,11 +1,15 @@
+import Navbar from '@/components/Navbar'
+import About from '@/components/about/About'
+
 import React from 'react'
 
-const About = () => {
+const page = () => {
   return (
     <div>
-      <p>About</p>
+      <Navbar />
+      <About />
     </div>
   )
 }
 
-export default About
+export default page
