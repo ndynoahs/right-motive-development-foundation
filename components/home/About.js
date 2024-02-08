@@ -7,11 +7,11 @@ const About = () => {
     
   return (
     <div className='flex flex-col items-center justify-center py-[7rem] '>
-        <div className='md:flex justify-between w-[95%] md:w-[98%] lg:w-[80%]'> 
+        <div className='md:flex justify-between md:w-[98%] lg:w-[80%] px-4'> 
             <div className='relative  md:w-[46%]'>
                 <div className='flex flex-col relative '>
                     <Image src={image} alt="" className='rounded-3xl' />
-                    <div className='flex  justify-evenly absolute w-[400px] md:w-[380px] mx-auto -translate-x-1/2  mt-[8.5rem]  top-1/2 left-1/2  px-4 py-4 border text-white rounded-2xl bg_primary'>
+                    <div className='flex  justify-evenly absolute w-[90%] md:w-[380px] mx-auto -translate-x-1/2  mt-[8.5rem]  top-1/2 left-1/2  px-4 py-4 border text-white rounded-2xl bg_primary'>
                         <div className='pr-4 border-r border-white'>
                             <p className='font-fairplay text-[42px]'>10<span>+</span></p>                
                             <p className='font-poppins'>Volunteers</p>

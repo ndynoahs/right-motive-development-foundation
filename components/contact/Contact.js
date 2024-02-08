@@ -12,10 +12,9 @@ const Contact = () => {
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
-              }}
-        
+            }}
         >   
-              <p className=" text-white font-bold font-poppins header_lg z-10 "> Contact Us</p>
+            <p className=" text-white font-bold font-poppins header_lg z-10 "> Contact Us</p>
             <div className='w-full absolute h-[60vh] bg-black opacity-40 '></div>
         </div>
 
@@ -56,7 +55,7 @@ const Contact = () => {
 
             <div className="lg:w-[500px] relative">
                 <div 
-                className='px-4 md:px-0 mt-[9rem] h-[60vh] rounded-3xl'
+                className=' mt-[9rem] h-[60vh] rounded-3xl'
                 style={{
                     backgroundImage: `url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
                     backgroundPosition: "center",
@@ -69,8 +68,8 @@ const Contact = () => {
                     alignItems: 'center',
                     justifyContent:'center'
                 }}
-            >   
-                <div className='w-full absolute h-[60vh] bg_primary opacity-80  rounded-3xl '></div>
+                >   
+                    <div className='w-full absolute h-[60vh] bg_primary opacity-80  rounded-3xl '></div>
                 </div>
 
             </div>

@@ -83,7 +83,7 @@ body {
     @apply text-[20px] md:text-[46px] mt-2 font-extrabold font-fairplay
   }
   .header_lg{
-    @apply text-[20px] md:text-[56px] mt-2 font-extrabold font-fairplay
+    @apply text-[24px] md:text-[56px] mt-2 font-extrabold font-fairplay
 
   }
 
@@ -95,6 +95,9 @@ body {
   /* Navbar */
   .navbar{
     @apply flex items-center justify-between px-[2rem] md:px-[8rem] py-[2rem] w-[100%] shadow-sm 
+  }
+  .navbar_logo{
+    @apply font-bold
   }
   .navbar_menu_list {
     @apply  hidden space-x-8 md:flex 

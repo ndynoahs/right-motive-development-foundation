@@ -8,7 +8,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaPeopleCarryBox } from "react-icons/fa6";
 const VolunteerAds = () => {
   return (
-    <div className="flex flex-col justify-center items-center   secondary_bg  ">
+    <div className="flex flex-col justify-center items-center  secondary_bg pt-5  ">
         <div className="flex flex-col items-center justify-center py-[3rem] px-6">
             <p className="primary_color font-bold">MEET OUT TEAM</p>
             <p className="header_md">Our Optimistic Volunteers</p>
