@@ -11,22 +11,22 @@ const About = () => {
             <div className='relative  md:w-[46%]'>
                 <div className='flex flex-col relative '>
                     <Image src={image} alt="" className='rounded-3xl' />
-                    <div className='flex  justify-evenly absolute w-[90%] md:w-[380px] mx-auto -translate-x-1/2  mt-[8.5rem]  top-1/2 left-1/2  px-4 py-4 border text-white rounded-2xl bg_primary'>
+                    <div className='flex  justify-evenly absolute w-[98%] md:w-[400px] mx-auto -translate-x-1/2 mt-[8.5rem]  top-1/2 left-1/2  p-4 border text-white rounded-2xl bg_primary space-x-2'>
                         <div className='pr-4 border-r border-white'>
-                            <p className='font-fairplay text-[42px]'>10<span>+</span></p>                
-                            <p className='font-poppins'>Volunteers</p>
+                            <p className='font-fairplay text-[36px] md:text-[42px]'>10<span>+</span></p>                
+                            <p className='font-poppins text-sm '>Volunteers</p>
                         </div>
                         <div className='pr-4 border-r border-white'>
-                            <p className='font-fairplay text-[42px]'>6<span>+</span></p>                
-                            <p className='font-poppins'>Sponsors</p>
+                            <p className='font-fairplay text-[36px] md:text-[42px]'>6<span>+</span></p>                
+                            <p className='font-poppins text-sm '>Sponsors</p>
                         </div>
                         <div className='pr-4 border-r border-white'>
-                            <p className='font-fairplay text-[42px]'>2<span>+</span></p>                
-                            <p className='font-poppins'>Branches</p>
+                            <p className='font-fairplay text-[36px] md:text-[42px]'>2<span>+</span></p>                
+                            <p className='font-poppins text-sm '>Branches</p>
                         </div>
                         <div className='border-white'>
-                            <p className='font-fairplay text-[42px]'>9<span>+</span></p>                
-                            <p className='font-poppins'>Awards</p>
+                            <p className='font-fairplay text-[36px] md:text-[42px]'>9<span>+</span></p>                
+                            <p className='font-poppins text-sm '>Awards</p>
                         </div>
                     </div>
                 </div>
