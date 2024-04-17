@@ -85,20 +85,20 @@ const About = () => {
         >
             <div className='flex  w-full justify-evenly absolute z-10 text-gray-100 '> 
               
-                <div className='pr-9 font-poppins border-r border-white'>
-                    <p className=' text-[52px] font-extrabold'>10<span>+</span></p>                
+                <div className='pr-2 md:pr-9 mr-1 font-poppins border-r border-white'>
+                    <p className=' text-[40px] md:text-[52px] font-extrabold'>10<span>+</span></p>                
                     <p className=' dark_color font-extrabold'>Volunteers</p>
                 </div>
-                <div className='pr-9 border-r border-white'>
-                    <p className='text-[52px] font-extrabold'>6<span>+</span></p>                
+                <div className='pr-2 md:pr-9  mr-1 border-r border-white'>
+                    <p className=' text-[40px] md:text-[52px] font-extrabold'>6<span>+</span></p>                
                     <p className='dark_color font-extrabold'>Sponsors</p>
                 </div>
-                <div className='pr-9 border-r border-white'>
-                    <p className='text-[52px] font-extrabold'>2<span>+</span></p>                
+                <div className='pr-2 md:pr-9  mr-1 border-r border-white'>
+                    <p className=' text-[40px] md:text-[52px]  font-extrabold'>2<span>+</span></p>                
                     <p className='dark_color font-extrabold'>Branches</p>
                 </div>
-                <div className='border-white'>
-                    <p className=' text-[52px] font-extrabold'>9<span>+</span></p>                
+                <div className='ml-1 border-white'>
+                    <p className=' text-[40px] md:text-[52px]  font-extrabold'>9<span>+</span></p>                
                     <p className='dark_color font-extrabold'>Awards</p>
                 </div>
             </div>

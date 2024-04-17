@@ -4,11 +4,11 @@ import image  from "../../public/image/bosa-charity-img3.jpg"
 const Campaigns = () => {
     const Box = ()=> {
         return(
-            <div className='w-[95%] sm:w-[75%] md:w-[500px] border border-[#08cc7f] rounded-3xl px-3 py-5 mt-8 space-y-5'>
+            <div className='w-[100%] sm:w-[75%] md:w-[500px] border border-[#08cc7f] rounded-3xl px-3 py-5 mt-8 space-y-5'>
             <div className='relative flex items-center justify-between w-full'> 
                 <Image src={image} alt="image" className='rounded-3xl h-[20rem] w-auto"' />
             </div>
-            <div className='space-y-8 px-8'>
+            <div className='space-y-8 px-4 md:px-8'>
             
             <p className='text-[20px] md:text-[27px] mt-2 font-extrabold font-fairplay '>Prosthetic arm for Emeka</p>
             <div className='flex justify-between'>
@@ -49,14 +49,14 @@ const Campaigns = () => {
             <div className='w-full absolute h-[50vh] bg-black opacity-40 '></div>
         </div>
 
-        <div className=' px-9'>
+        <div className='p-4 md:px-9'>
         
-            <div className='flex flex-wrap items-center justify-evenly   mt-[5rem]  '>
+            <div className='flex flex-wrap items-center justify-evenly   my-[5rem]  '>
                 <Box />
                 <Box />
                 <Box />
                 <Box />
-ç
+
 
                 {/* <div className='sm:w-[70%] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
                     <div className='relative flex items-center justify-center w-full'> 

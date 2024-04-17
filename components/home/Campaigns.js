@@ -16,7 +16,7 @@ const Campaigns = () => {
                     <div className='flex items-center justify-center'> 
                     <Image src={image} alt="image" className='rounded-3xl' />
                     </div>
-                    <div className='space-y-8 px-8'>
+                    <div className='space-y-8 px-4'>
                     
                     <p className='text-[20px] md:text-[27px] mt-2 font-extrabold font-fairplay '>Prosthetic arm for Emeka</p>
                     <div className='flex justify-between'>
@@ -30,26 +30,23 @@ const Campaigns = () => {
                         </div>
                         <div className=''>
                             <p className='text-[14px]'>DUE DATE</p>
-                            <p className='font-fairplay font-bold text-[15px] lg:text-[17px]'>23th August 2024 </p>
+                            <p className='font-fairplay font-bold text-[15px] lg:text-[17px]'>26th August 2024 </p>
                         </div>
                     </div>
                     <div className='flex border-2xl rounded-3xl secondary_bg  '>
-                        <p className='flex pl-3  font-semibold text-[12px] py-[5px] text-white  rounded-l-3xl w-[50%] bg_primary'>Rised Funds <span> 39%</span></p>
+                        <p className='flex pl-3 font-semibold text-[12px] py-[5px] text-white rounded-l-3xl w-[50%] bg_primary'>Rised Funds <span className='pl-1'> 39%</span></p>
                     </div>
                     <div className='flex justify-between '>
                         <button className='button_rounded'>Donte Now</button>
                         <button className='button_outline'>Program Details</button>
                     </div>
-
                     </div>
-
-
                 </div>
                 <div className='sm:w-[70%] md:w-[550px] border border-[#08cc7f] rounded-3xl px-3 py-5 space-y-9'>
                     <div className='flex items-center justify-center'> 
                     <Image src={image} alt="image" className='rounded-3xl' />
                     </div>
-                    <div className='space-y-8 px-8'>
+                    <div className='space-y-8 px-4'>
                     
                     <p className='text-[20px] md:text-[27px] mt-2 font-extrabold font-fairplay '>Prosthetic arm for Emeka</p>
                     <div className='flex justify-between'>
@@ -67,7 +64,7 @@ const Campaigns = () => {
                         </div>
                     </div>
                     <div className='flex border-2xl rounded-3xl secondary_bg  '>
-                        <p className='flex pl-3  font-semibold text-[12px] py-[5px] text-white  rounded-l-3xl w-[50%] bg_primary'>Rised Funds <span> 39%</span></p>
+                        <p className='flex pl-3 font-semibold text-[12px] py-[5px] text-white rounded-l-3xl w-[50%] bg_primary'>Rised Funds <span className='pl-1'> 39%</span></p>
                     </div>
                     <div className='flex justify-between '>
                         <button className='button_rounded'>Donte Now</button>

@@ -19,7 +19,7 @@ const Events = () => {
         </div>
         <div className="flex flex-col justify-center md:flex-row md:justify-evenly my-[9rem] space-y-9 md:space-y-0 md:space-x-7 ">
             <div 
-                className='relative justify-center flex mx-[2rem] lg:w-[500px] h-[65vh] rounded-2xl'
+                className='relative justify-center flex mx-[1rem] md:mx-[2rem] lg:w-[500px] h-[65vh] rounded-2xl'
                 style={{
                     backgroundImage: `url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
                     backgroundPosition: "center",
@@ -47,7 +47,7 @@ const Events = () => {
                 <div className='w-full absolute h-[65vh] bg-black opacity-60  rounded-3xl '></div>
             </div>
             <div 
-                className='relative justify-center flex mx-[2rem] lg:w-[500px] h-[65vh] rounded-2xl'
+                className='relative justify-center flex mx-[1rem] md:mx-[2rem] lg:w-[500px] h-[65vh] rounded-2xl'
                 style={{
                     backgroundImage: `url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
                     backgroundPosition: "center",
